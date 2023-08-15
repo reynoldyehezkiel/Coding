@@ -3761,3 +3761,21 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 14:02:45.976
+!MESSAGE Classpath changed for project: RegisterLogin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 14:02:47.749
+!MESSAGE Classpath changed for project: RegisterLogin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 14:02:47.751
+!MESSAGE Boot project ADDED: RegisterLogin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 14:02:51.588
+!MESSAGE Classpath changed for project: RegisterLogin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 14:02:57.376
+!MESSAGE Classpath changed for project: RegisterLogin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 14:03:03.815
+!MESSAGE Classpath changed for project: RegisterLogin
