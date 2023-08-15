@@ -1,0 +1,20 @@
+package com.tutorial.springboot.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.tutorial.springboot.model.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	@Autowired
+	
+	
+	@Override
+	public List<Employee> getAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

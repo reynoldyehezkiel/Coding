@@ -1,0 +1,37 @@
+package com.crud.controllers;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.hibernate.Session;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.db.HibernateDatabaseConnection;
+
+@Controller
+public class DashboardController {
+
+	@RequestMapping("/dashboard")
+	public String loadDashboard(HttpServletRequest req, HttpServletResponse res) throws IOException {
+
+		String username = (String) req.getSession().getAttribute("username");
+
+		if (username == null) {
+			res.sendRedirect("login");
+		}
+		
+		Session session = null;
+		session = HibernateDatabaseConnection.getSessionFactory().openSession();
+		Query query2 = session.createQuery("FROM Student");
+		List students = query2.list();
+
+
+		return "views/dashboard.jsp";
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.tutorial;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class AddController
+{
+	
+	public void add()
+	{
+		System.out.println("I'm here");
+	}
+}

@@ -1,0 +1,72 @@
+package com.crud.controllers;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletResponse;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.dao.Student;
+import com.db.HibernateDatabaseConnection;
+
+@Controller
+public class StudentController {
+
+	@RequestMapping("/add_student")
+	public String getAddStudentForm() {
+		return "views/student_add_form.jsp";
+	}
+
+	@RequestMapping(value = "add_student_action", method = RequestMethod.POST)
+	public void addStudent(HttpServletResponse res, @ModelAttribute("student") Student std) throws IOException {
+
+		System.out.println(std.getName());
+
+		Session session = null;
+		session = HibernateDatabaseConnection.getSessionFactory().openSession();
+
+		Transaction t = session.beginTransaction();
+		session.save(std);
+		t.commit();
+
+		res.sendRedirect("dashboard");
+	}
+
+	@RequestMapping("/delete")
+	public void deleteUser(HttpServletResponse res, @RequestParam("id") int id) throws IOException {
+
+		System.out.println("\n\n===== Id + " + id + "=====\n\n");
+
+		Session session = null;
+		session = HibernateDatabaseConnection.getSessionFactory().openSession();
+
+		Transaction t = session.beginTransaction();
+
+		Student std_obj = new Student();
+		std_obj.setId(id);
+
+		session.delete(std_obj); // DELETE FROM students WHERE id = ?
+
+		t.commit();
+
+		res.sendRedirect("dashboard");
+	}
+
+	@RequestMapping("/edit")
+	public void getEdit(HttpServletResponse res, @RequestParam("id") int id) throws IOException {
+
+		Student std_obj = new Student();
+		std_obj.setId(id);
+
+		System.out.println(std_obj.getName());
+		
+		
+		res.sendRedirect("dashboard");
+	}
+}

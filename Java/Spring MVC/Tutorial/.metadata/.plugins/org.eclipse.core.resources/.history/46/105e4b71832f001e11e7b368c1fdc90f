@@ -1,0 +1,9 @@
+package com.tutorial;
+
+public class AddController
+{
+	public void add()
+	{
+		System.out.println("I'm here");
+	}
+}

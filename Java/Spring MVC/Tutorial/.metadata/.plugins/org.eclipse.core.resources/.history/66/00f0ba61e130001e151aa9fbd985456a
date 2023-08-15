@@ -1,0 +1,8 @@
+package com.tutorial.web;
+
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+public class MyConfig extends WebMvcConfigurerAdapter
+{
+	
+}

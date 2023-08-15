@@ -1,0 +1,17 @@
+package com.login.dao;
+
+public class LoginDAO 
+{
+	public boolean check(String name,String password)
+	{
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+}

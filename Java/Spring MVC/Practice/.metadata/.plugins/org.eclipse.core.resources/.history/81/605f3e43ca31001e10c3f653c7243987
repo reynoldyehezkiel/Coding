@@ -1,0 +1,51 @@
+package com.mahasiswa.dao;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+import com.mahasiswa.model.Mahasiswa;
+
+class MahasiswaDAOTest {
+	private DriverManagerDataSource dataSource;
+	private MahasiswaDAO dao;
+
+	@Test
+	void testSave() {
+		dataSource = new DriverManagerDataSource();
+		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/kampus");
+		dataSource.setUsername("root");
+		dataSource.setPassword("");
+
+		dao = new MahasiswaDAOImplementation(dataSource);
+
+		Mahasiswa mhs = new Mahasiswa("123456", "Nomad Nero", "Teknik Nuklir", "2016");
+		int result = dao.save(mhs);
+
+		assertTrue(result > 0);
+	}
+
+	@Test
+	void testGet() {
+		String nim = "11223344";
+		Mahasiswa mhs = dao.get(nim);
+		
+		if (mhs != null) {
+			System.out.println(mhs);
+		}
+		
+		assertNotNull(mhs);
+	}
+
+	@Test
+	void testList() {
+		List<Mahasiswa> listMhs = dao.list();
+		
+		assertTrue(!listMhs.isEmpty());
+	}
+
+}

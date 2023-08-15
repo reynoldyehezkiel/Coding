@@ -1,0 +1,14 @@
+package com.crud.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class StudentController {
+
+	@RequestMapping("/add_student")
+	public String getAddStudentForm() {
+		return "views/student_add_form.jsp";
+	}
+	
+}

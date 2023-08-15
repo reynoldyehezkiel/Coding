@@ -1,0 +1,17 @@
+package com.mahasiswa.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.mahasiswa.dao.MahasiswaDAO;
+
+@Controller
+public class MainController {
+	
+	private MahasiswaDAO mahasiswaDAO;
+
+	@RequestMapping(value = "/")
+	public String home() {
+		return "index";
+	}
+}

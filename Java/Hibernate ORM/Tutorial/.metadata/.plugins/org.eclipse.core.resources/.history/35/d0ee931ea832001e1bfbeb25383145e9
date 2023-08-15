@@ -1,0 +1,22 @@
+package com.crud.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class DashboardController {
+
+	@RequestMapping("/dashboard")
+	public String loadDashboard(HttpServletRequest req) {
+		
+		System.out.println();
+		
+		String username = (String)req.getSession().getAttribute("username");
+		
+		return "views/dashboard.jsp";
+		
+	}
+	
+}

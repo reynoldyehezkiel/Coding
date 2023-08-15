@@ -1,0 +1,12 @@
+127.0.0.1 - - [01/Aug/2023:13:40:59 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:41:02 +0700] "GET /websocket-chat/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:41:02 +0700] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:41:50 +0700] "GET /websocket-chat/index.xhtml HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:43:32 +0700] "GET /websocket-chat/index.xhtml HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:43:38 +0700] "GET /websocket-chat/index.jsp HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:43:41 +0700] "GET /websocket-chat/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:44:02 +0700] "GET /websocket-chat/login?uname=abc&pass=123 HTTP/1.1" 404 741
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:44:40 +0700] "GET /websocket-chat/login?uname=abc&pass=123 HTTP/1.1" 200 126
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:44:58 +0700] "GET /websocket-chat/login?uname=abc&pass=asdfg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:45:36 +0700] "GET /websocket-chat/index.jsp HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:13:45:41 +0700] "GET /websocket-chat/login?uname=asss&pass=assss HTTP/1.1" 200 279

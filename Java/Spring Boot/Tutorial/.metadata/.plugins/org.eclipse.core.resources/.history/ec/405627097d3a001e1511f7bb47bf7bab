@@ -1,0 +1,5 @@
+package com.tutorial.springboot.config;
+
+public class SecurityConfiguration {
+
+}

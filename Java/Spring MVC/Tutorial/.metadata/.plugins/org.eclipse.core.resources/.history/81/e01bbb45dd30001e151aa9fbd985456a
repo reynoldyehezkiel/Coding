@@ -1,0 +1,17 @@
+package com.tutorial;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+@Configuration
+@ComponentScan({ "com.tutorial"} )
+public class TutorialConfig 
+{
+	public InternalResourceViewResolver viewResolver()
+	{
+		InternalResourceViewResolver vr = new InternalResourceViewResolver();
+		
+		return vr;
+	}
+}

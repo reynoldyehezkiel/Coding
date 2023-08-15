@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Spring MVC\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4119228892.index
+\SpringMVCJava\src\main\resources
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Spring MVC\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1812869092.index
+\DemoMVC\src\main\java
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Spring MVC\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3915367551.index
+\websocket-chat\src\main\java
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Spring MVC\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1445608363.index
+\DemoMVC\src\main\resources

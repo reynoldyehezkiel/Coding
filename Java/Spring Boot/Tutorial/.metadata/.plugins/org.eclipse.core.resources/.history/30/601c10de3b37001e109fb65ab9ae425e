@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Thymeleaf If-Unless</title>
+<link th:href = "@{/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1>Employees</h1>
+			
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Username</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

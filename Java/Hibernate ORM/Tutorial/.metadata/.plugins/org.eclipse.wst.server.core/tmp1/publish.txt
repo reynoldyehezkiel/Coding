@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Aug 09 10:19:08 WIB 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Reynold\ Yehezkiel\\Kerja\\Coding\\Java\\Hibernate\ ORM\\Tutorial\\StudentsCRUDApp\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.1.5.RELEASE.jar=WEB-INF/lib/spring-web-5.1.5.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\reynyan\\.m2\\repository\\org\\springframework\\spring-web\\5.0.9.RELEASE\\spring-web-5.0.9.RELEASE.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE.jar

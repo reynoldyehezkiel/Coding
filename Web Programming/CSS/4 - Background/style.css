@@ -1,0 +1,7 @@
+body {
+    background-color: white;
+    background-image: url(images/tree.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
+}

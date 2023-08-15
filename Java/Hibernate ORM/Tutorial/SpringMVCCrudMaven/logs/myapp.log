@@ -1,0 +1,114 @@
+2023-08-09 09:18:03 INFO  Version:21 - HV000001: Hibernate Validator 6.0.10.Final
+2023-08-09 09:18:07 INFO  Version:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2023-08-09 09:18:07 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2023-08-09 09:18:08 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-08-09 09:18:09 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-09 09:26:34 INFO  Version:21 - HV000001: Hibernate Validator 6.0.10.Final
+2023-08-09 09:26:38 INFO  Version:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2023-08-09 09:26:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2023-08-09 09:26:39 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-08-09 09:26:41 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-09 09:33:27 INFO  Version:21 - HV000001: Hibernate Validator 6.0.10.Final
+2023-08-09 09:33:31 INFO  Version:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2023-08-09 09:33:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2023-08-09 09:33:32 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-08-09 09:33:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-09 09:42:40 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcher': initialization started
+2023-08-09 09:42:40 INFO  XmlWebApplicationContext:590 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 09:42:40 WIB 2023]; root of context hierarchy
+2023-08-09 09:42:41 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-mvc-crud-demo-servlet.xml]
+2023-08-09 09:42:44 INFO  Version:21 - HV000001: Hibernate Validator 6.0.10.Final
+2023-08-09 09:42:46 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 09:42:40 WIB 2023]; root of context hierarchy
+2023-08-09 09:42:46 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 09:42:40 WIB 2023]; root of context hierarchy
+2023-08-09 09:42:49 INFO  Version:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2023-08-09 09:42:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2023-08-09 09:42:49 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-08-09 09:42:51 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-09 09:42:53 INFO  HibernateTransactionManager:378 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge136ax1nzbcck7t51ai|3035ded6, dataSourceName -> 1hge136ax1nzbcck7t51ai|3035ded6 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2023-08-09 09:42:54 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2023-08-09 09:42:54 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcher': initialization completed in 13426 ms
+2023-08-09 09:42:54 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 09:44:31 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 09:44:36 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 09:44:36 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 09:44:36 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 09:44:36 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 09:44:42 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 10:00:29 WARN  PageNotFound:1205 - No mapping found for HTTP request with URI [/SpringMVCCrudMaven/] in DispatcherServlet with name 'dispatcher'
+2023-08-09 10:02:51 INFO  XmlWebApplicationContext:993 - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 09:42:40 WIB 2023]; root of context hierarchy
+2023-08-09 10:03:45 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcher': initialization started
+2023-08-09 10:03:45 INFO  XmlWebApplicationContext:590 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:03:45 WIB 2023]; root of context hierarchy
+2023-08-09 10:03:45 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-mvc-crud-demo-servlet.xml]
+2023-08-09 10:03:48 INFO  Version:21 - HV000001: Hibernate Validator 6.0.10.Final
+2023-08-09 10:03:51 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:03:45 WIB 2023]; root of context hierarchy
+2023-08-09 10:03:51 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:03:45 WIB 2023]; root of context hierarchy
+2023-08-09 10:03:52 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2023-08-09 10:03:53 INFO  Version:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2023-08-09 10:03:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2023-08-09 10:03:56 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-08-09 10:04:00 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-09 10:04:04 INFO  HibernateTransactionManager:378 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge136ax1o02ghs17ovhby|3343ad78, dataSourceName -> 1hge136ax1o02ghs17ovhby|3343ad78 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2023-08-09 10:04:04 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2023-08-09 10:04:05 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcher': initialization completed in 20230 ms
+2023-08-09 10:11:41 INFO  XmlWebApplicationContext:993 - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:03:45 WIB 2023]; root of context hierarchy
+2023-08-09 10:12:28 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcher': initialization started
+2023-08-09 10:12:28 INFO  XmlWebApplicationContext:590 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:12:28 WIB 2023]; root of context hierarchy
+2023-08-09 10:12:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-mvc-crud-demo-servlet.xml]
+2023-08-09 10:12:34 INFO  Version:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2023-08-09 10:12:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2023-08-09 10:12:36 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-08-09 10:12:38 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-09 10:12:40 INFO  Version:21 - HV000001: Hibernate Validator 6.0.10.Final
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/customer-form]}" onto public java.lang.String com.tutorial.controller.CustomerController.addCustomer(com.tutorial.entity.Customer,org.springframework.ui.Model)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/list]}" onto public java.lang.String com.tutorial.controller.CustomerController.customerList(org.springframework.ui.Model)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/saveCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.saveCustomer(com.tutorial.entity.Customer,org.springframework.validation.BindingResult)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/login]}" onto public java.lang.String com.tutorial.controller.CustomerController.loginCustomer(com.tutorial.entity.Customer,org.springframework.ui.Model)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/deleteCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.deleteCustomer(int)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/updateCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.updateCustomer(int,org.springframework.ui.Model)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/loginCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.loginProcess(com.tutorial.entity.Customer,org.springframework.validation.BindingResult,java.lang.String,java.lang.String)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/search],methods=[POST]}" onto public java.lang.String com.tutorial.controller.CustomerController.searchCustomers(java.lang.String,org.springframework.ui.Model)
+2023-08-09 10:12:43 INFO  RequestMappingHandlerMapping:549 - Mapped "{[ || / || /index || /home || /default],methods=[GET]}" onto public java.lang.String com.tutorial.controller.HomeController.homePage()
+2023-08-09 10:12:45 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:12:28 WIB 2023]; root of context hierarchy
+2023-08-09 10:12:45 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:12:28 WIB 2023]; root of context hierarchy
+2023-08-09 10:12:46 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2023-08-09 10:12:46 INFO  HibernateTransactionManager:378 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge136ax1o0dlw2kmnh3b|4eb7ff99, dataSourceName -> 1hge136ax1o0dlw2kmnh3b|4eb7ff99 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2023-08-09 10:12:47 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2023-08-09 10:12:48 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcher': initialization completed in 19544 ms
+2023-08-09 10:12:58 INFO  CustomerController:64 - Debug: Showing Customer List
+2023-08-09 10:12:58 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2023-08-09 10:19:25 INFO  XmlWebApplicationContext:993 - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:12:28 WIB 2023]; root of context hierarchy
+2023-08-09 10:20:09 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcher': initialization started
+2023-08-09 10:20:10 INFO  XmlWebApplicationContext:590 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:20:10 WIB 2023]; root of context hierarchy
+2023-08-09 10:20:10 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-mvc-crud-demo-servlet.xml]
+2023-08-09 10:20:15 INFO  Version:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2023-08-09 10:20:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2023-08-09 10:20:17 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-08-09 10:20:19 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-09 10:20:21 INFO  Version:21 - HV000001: Hibernate Validator 6.0.10.Final
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/list]}" onto public java.lang.String com.tutorial.controller.CustomerController.customerList(org.springframework.ui.Model)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/customer-form]}" onto public java.lang.String com.tutorial.controller.CustomerController.addCustomer(com.tutorial.entity.Customer,org.springframework.ui.Model)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/login]}" onto public java.lang.String com.tutorial.controller.CustomerController.loginCustomer(com.tutorial.entity.Customer,org.springframework.ui.Model)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/loginCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.loginProcess(com.tutorial.entity.Customer,org.springframework.validation.BindingResult,java.lang.String,java.lang.String)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/updateCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.updateCustomer(int,org.springframework.ui.Model)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/saveCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.saveCustomer(com.tutorial.entity.Customer,org.springframework.validation.BindingResult)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/deleteCustomer]}" onto public java.lang.String com.tutorial.controller.CustomerController.deleteCustomer(int)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[/customer/search],methods=[POST]}" onto public java.lang.String com.tutorial.controller.CustomerController.searchCustomers(java.lang.String,org.springframework.ui.Model)
+2023-08-09 10:20:27 INFO  RequestMappingHandlerMapping:549 - Mapped "{[ || / || /index || /home || /default],methods=[GET]}" onto public java.lang.String com.tutorial.controller.HomeController.homePage()
+2023-08-09 10:20:28 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:20:10 WIB 2023]; root of context hierarchy
+2023-08-09 10:20:29 INFO  RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Aug 09 10:20:10 WIB 2023]; root of context hierarchy
+2023-08-09 10:20:29 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2023-08-09 10:20:30 INFO  HibernateTransactionManager:378 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge136ax1o0nhef1mv6x2m|4eb7ff99, dataSourceName -> 1hge136ax1o0nhef1mv6x2m|4eb7ff99 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2023-08-09 10:20:30 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2023-08-09 10:20:30 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcher': initialization completed in 20891 ms
+2023-08-09 10:20:35 INFO  CustomerController:64 - Debug: Showing Customer List
+2023-08-09 10:20:36 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2023-08-09 10:20:45 INFO  CustomerController:109 - Debug: Updating Customer...
+2023-08-09 10:20:54 INFO  CustomerController:75 - Debug: Saving/Updating Customer...
+2023-08-09 10:20:54 INFO  CustomerController:77 - Debug: Error Occured
+2023-08-09 10:21:35 INFO  CustomerController:75 - Debug: Saving/Updating Customer...
+2023-08-09 10:21:35 INFO  CustomerController:80 - Debug: In Else No Error Found.
+2023-08-09 10:21:35 INFO  CustomerController:64 - Debug: Showing Customer List
+2023-08-09 10:21:48 INFO  CustomerController:121 - Debug: Deleting Customer...
+2023-08-09 10:21:48 INFO  CustomerController:64 - Debug: Showing Customer List
+2023-08-09 10:21:53 INFO  CustomerController:129 - Debug: Searching Customer...
+2023-08-09 10:21:55 INFO  CustomerController:129 - Debug: Searching Customer...
+2023-08-09 10:22:00 INFO  CustomerController:129 - Debug: Searching Customer...

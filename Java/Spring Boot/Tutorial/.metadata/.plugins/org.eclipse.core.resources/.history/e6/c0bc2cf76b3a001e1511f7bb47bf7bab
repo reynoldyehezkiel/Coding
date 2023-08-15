@@ -1,0 +1,5 @@
+package com.tutorial.springboot.web;
+
+public class UserRegistrationController {
+
+}

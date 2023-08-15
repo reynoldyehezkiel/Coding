@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Hibernate ORM\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3364886800.index
+\SpringMVCCrudMaven\src\main\java
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Hibernate ORM\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3173573376.index
+\SpringMVCCrudMaven\src\main\resources
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Hibernate ORM\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1816813960.index
+\StudentsCRUDApp\src\main\java
+C:\Reynold Yehezkiel\Kerja\Coding\Java\Hibernate ORM\Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4270407904.index
+\StudentsCRUDApp\src\main\java

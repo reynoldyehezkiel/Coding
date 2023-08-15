@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.tutorial.springboot.service.UserSerciveImpl.java&apos; to &apos;UserServiceImpl.java&apos;&#x0D;&#x0A;- Original project: &apos;registration-login-spring-boot-security-thymeleaf&apos;&#x0D;&#x0A;- Original element: &apos;com.tutorial.springboot.service.UserSerciveImpl.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tutorial.springboot.service.UserServiceImpl.java&apos;" description="Rename compilation unit &apos;UserSerciveImpl.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tutorial.springboot.service{UserSerciveImpl.java" name="UserServiceImpl.java" references="false" stamp="1692010438979" version="1.0"/>
+</session>

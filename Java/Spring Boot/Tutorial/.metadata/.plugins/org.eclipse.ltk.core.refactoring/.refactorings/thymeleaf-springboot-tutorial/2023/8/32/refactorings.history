@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;thymeleaf-springboot-tutorial/src/main/resources/templates/add-bootstrap.html&apos; to &apos;bootstrap.html&apos;" description="Rename resource &apos;add-bootstrap.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/add-bootstrap.html" name="bootstrap.html" stamp="1691652693447" updateReferences="true"/>
+</session>

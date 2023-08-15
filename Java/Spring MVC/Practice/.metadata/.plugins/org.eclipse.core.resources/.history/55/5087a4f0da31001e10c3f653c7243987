@@ -1,0 +1,19 @@
+package com.mahasiswa.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.mahasiswa.dao.MahasiswaDAO;
+
+@Controller
+public class MainController {
+	
+	@Autowired
+	private MahasiswaDAO mahasiswaDAO;
+
+	@RequestMapping(value = "/")
+	public String home() {
+		return "index";
+	}
+}

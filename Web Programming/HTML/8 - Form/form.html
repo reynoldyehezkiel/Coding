@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <!-- Text -->
+                <td>
+                    <label for="username">Username : </label>
+                </td>
+                <td>
+                    <input type="text" id="username">
+                </td>
+            </tr>
+            <tr>
+                <!-- Password -->
+                <td>
+                    <label for="password">Password : </label>
+                </td>
+                <td>
+                    <input type="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <!-- Radio -->
+                <td colspan="2">
+                    <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <!-- Checkbox -->
+                <td colspan="2">
+                    <input type="checkbox" name="" id="menyanyi"><label for="menyanyi">menyanyi</label>
+                    <input type="checkbox" name="" id="olahraga"><label for="olahraga">olahraga</label>
+                    <input type="checkbox" name="" id="ngoding"><label for="ngoding">ngoding</label>
+                </td>
+            </tr>
+            <tr>
+                <!-- Combo Box -->
+                <td>
+                    <label for="combo_box">Combo Box : </label>
+                </td>
+                <td>
+                    <select id="combo_box">
+                        <option>Bandung</option>
+                        <option>Yogyakarta</option>
+                        <option>Jakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <!-- Textarea -->
+                <td>
+                    <label for="textarea">Textarea : </label>
+                </td>
+                <td>
+                    <textarea id="textarea"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <!-- Button -->
+                <td></td>
+                <td>
+                    <button type="submit" value="kirim!">Kirim!</button>
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>
