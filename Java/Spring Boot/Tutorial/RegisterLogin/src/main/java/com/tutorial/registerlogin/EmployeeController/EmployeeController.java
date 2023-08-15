@@ -14,12 +14,12 @@ import com.tutorial.registerlogin.Service.EmployeeService;
 @CrossOrigin
 @RequestMapping("api/v1/employee")
 public class EmployeeController {
-
+	
 	@Autowired
 	private EmployeeService employeeService;
 	
 	@PostMapping(path = "/save")
-    public String saveEmployee(@RequestBody EmployeeDTO employeeDTO)
+	public String saveEmployee(@RequestBody EmployeeDTO employeeDTO)
     {
         String id = employeeService.addEmployee(employeeDTO);
         return id;
