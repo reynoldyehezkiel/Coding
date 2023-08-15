@@ -11534,3 +11534,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 09:11:15.457
 !MESSAGE Boot project ADDED: thymeleaf-springboot-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 09:35:19.475
+!MESSAGE Classpath changed for project: springboot_rest_mysql_app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 09:35:24.813
+!MESSAGE Classpath changed for project: springboot_rest_mysql_app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 09:35:24.827
+!MESSAGE Boot project ADDED: springboot_rest_mysql_app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 09:35:25.077
+!MESSAGE Classpath changed for project: springboot_rest_mysql_app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-15 09:35:26.272
+!MESSAGE Classpath changed for project: springboot_rest_mysql_app
