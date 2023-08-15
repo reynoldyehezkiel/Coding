@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tutorial.registerlogin.Dto.EmployeeDTO;
+import com.tutorial.registerlogin.Dto.LoginDTO;
+import com.tutorial.registerlogin.Response.LoginResponse;
 import com.tutorial.registerlogin.Service.EmployeeService;
 
 @RestController
@@ -29,7 +31,7 @@ public class EmployeeController {
 	@PostMapping(path = "/login")
     public ResponseEntity<?> loginEmployee(@RequestBody LoginDTO loginDTO)
     {
-        loginResponse loginResponse = employeeService.loginEmployee(loginDTO);
+		LoginResponse loginResponse = employeeService.loginEmployee(loginDTO);
         return ResponseEntity.ok(loginResponse);
     }
 }

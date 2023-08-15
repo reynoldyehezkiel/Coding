@@ -8,7 +8,6 @@ public class EmployeeDTO {
     private String password;
     
 	public EmployeeDTO(int employeeid, String employeename, String email, String password) {
-		super();
 		this.employeeid = employeeid;
 		this.employeename = employeename;
 		this.email = email;

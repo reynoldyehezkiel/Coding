@@ -6,13 +6,12 @@ public class LoginDTO {
 	private String password;
 	
 	public LoginDTO(String email, String password) {
-		super();
 		this.email = email;
 		this.password = password;
 	}
 
 	public LoginDTO() {
-		super();
+		
 	}
 
 	public String getEmail() {

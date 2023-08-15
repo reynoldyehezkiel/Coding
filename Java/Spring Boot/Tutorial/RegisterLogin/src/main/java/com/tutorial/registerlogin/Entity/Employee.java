@@ -26,7 +26,6 @@ public class Employee {
     private String password;
 
 	public Employee(int employeeid, String employeename, String email, String password) {
-		super();
 		this.employeeid = employeeid;
 		this.employeename = employeename;
 		this.email = email;
