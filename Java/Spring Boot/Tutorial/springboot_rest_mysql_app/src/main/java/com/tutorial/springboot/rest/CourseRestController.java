@@ -21,34 +21,34 @@ public class CourseRestController {
 
 	@Autowired
 	private CourseService courseService;
-	
+
 	@PostMapping("/course")
-	public ResponseEntity<String> createCourse(@RequestBody Course course){
+	public ResponseEntity<String> createCourse(@RequestBody Course course) {
 		String status = courseService.upsert(course);
 		return new ResponseEntity<>(status, HttpStatus.CREATED);
 	}
-	
+
 	@GetMapping("/course/{cid}")
-	public ResponseEntity<Course> getCourse(@PathVariable Integer cid){
+	public ResponseEntity<Course> getCourse(@PathVariable Integer cid) {
 		Course course = courseService.getById(cid);
 		return new ResponseEntity<>(course, HttpStatus.OK);
 	}
-	
+
 	@GetMapping("/courses")
-	public ResponseEntity<List<Course>> getAllCourses(){
-		List<Course> allCourse = courseService.getAllCourse();
-		return new ResponseEntity<>(allCourse, HttpStatus.OK);
+	public ResponseEntity<List<Course>> getAllCourses() {
+		List<Course> allCourses = courseService.getAllCourses();
+		return new ResponseEntity<>(allCourses, HttpStatus.OK);
 	}
-	
+
 	@PutMapping("/course")
-	public ResponseEntity<String> updateCourse(@RequestBody Course course){
+	public ResponseEntity<String> updateCourse(@RequestBody Course course) {
 		String status = courseService.upsert(course);
 		return new ResponseEntity<>(status, HttpStatus.OK);
 	}
 
 	@DeleteMapping("/course/{cid}")
-	public ResponseEntity<String> deleteCourse(@PathVariable Integer cid){
-		String status = courseService.deletedById(cid);
+	public ResponseEntity<String> deleteCourse(@PathVariable Integer cid) {
+		String status = courseService.deleteById(cid);
 		return new ResponseEntity<>(status, HttpStatus.OK);
 	}
 }
