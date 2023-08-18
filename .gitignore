@@ -1,6 +1,6 @@
 
 Java/Spring MVC/Practice/Mahasiswa/
-Evaluasi/Mini Project/
+Evaluasi/Mini Project/TokoOnline
 
 # Created by https://www.gitignore.io/api/eclipse
 
@@ -64,3 +64,5 @@ local.properties
 .classpath
 
 # End of https://www.gitignore.io/api/eclipse
+Evaluasi/Mini Project/ExampleWorkspace.code-workspace
+Evaluasi/Mini Project/How to get transaction-related data.txt
