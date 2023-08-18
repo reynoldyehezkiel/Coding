@@ -1,5 +1,6 @@
 package com.tutorial.springboot.service;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -51,6 +52,12 @@ public class UserServiceImpl implements UserService{
 	
 	private Collection<? extends GrantedAuthority> mapRolesToAuthorities(Collection<Role> roles){
 		return roles.stream().map(role -> new SimpleGrantedAuthority(role.getName())).collect(Collectors.toList());
+	}
+	
+	private Collection<? extends GrantedAuthority> getAuthority(String role) {
+		Collection<GrantedAuthority> result = new ArrayList<GrantedAuthority>();
+		result.add(new SimpleGrantedAuthority(role));
+		return result;
 	}
 	
 }
