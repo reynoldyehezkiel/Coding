@@ -35,7 +35,6 @@ public class EmployeeIMPL implements EmployeeService {
 
 	@Override
 	public LoginResponse loginEmployee(LoginDTO loginDTO) {
-		String msg = "";
 		Employee employee1 = employeeRepo.findByEmail(loginDTO.getEmail());
 		if (employee1 != null) {
 			String password = loginDTO.getPassword();
