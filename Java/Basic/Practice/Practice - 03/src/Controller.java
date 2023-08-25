@@ -123,6 +123,10 @@ public class Controller {
                 {
                     System.out.print(temp + " ");
                 }
+                else
+                {
+                    System.out.print(temp + " ");
+                }
 
             }
             System.out.println();
