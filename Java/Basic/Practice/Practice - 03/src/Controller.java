@@ -111,7 +111,15 @@ public class Controller {
             for (int j = 0; j < n; j++){
                 countFibo();
 
-                if (j <= i || j < n - i)
+                if (j < n - i)
+                {
+                    System.out.print(temp + " ");
+                }
+                else if (j < i)
+                {
+                    System.out.print("  ");
+                }
+                else if (j <= i)
                 {
                     System.out.print(temp + " ");
                 }
