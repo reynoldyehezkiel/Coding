@@ -87,11 +87,11 @@ public class Controller {
 
                 if (i == j || (i + j) == n - 1)
                 {
-                    System.out.print(temp);
+                    System.out.print(temp + " ");
                 }
                 else
                 {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
             }
             System.out.println();
@@ -111,17 +111,18 @@ public class Controller {
             for (int j = 0; j < n; j++){
                 countFibo();
 
-                if (j < n - i)
+
+                if (i == j || (i + j) == n - 1)
                 {
                     System.out.print(temp + " ");
                 }
                 else if (j < i)
                 {
-                    System.out.print("  ");
+                    System.out.print("_ ");
                 }
-                else if (j <= i)
+                else if (j < n - i)
                 {
-                    System.out.print(temp + " ");
+                    System.out.print("  ");
                 }
                 else
                 {
