@@ -1,5 +1,0 @@
-package com.tutorial.springboot.service;
-
-public interface UserService {
-
-}

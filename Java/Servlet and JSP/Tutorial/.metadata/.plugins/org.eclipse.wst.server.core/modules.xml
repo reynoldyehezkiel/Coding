@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<modules>
-  <module moduleId="org.eclipse.jst.jee.server:DemoApp" serverId="Tomcat v9.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:ServletFilter" serverId="Tomcat v9.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.j2ee.server:ServletJspDemo" serverId="Tomcat v9.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:LoginModule" serverId="Tomcat v9.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:JSTLDemo" serverId="Tomcat v9.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:ToDoJsp" serverId="Tomcat v9.0 Server at localhost"/>
-</modules>

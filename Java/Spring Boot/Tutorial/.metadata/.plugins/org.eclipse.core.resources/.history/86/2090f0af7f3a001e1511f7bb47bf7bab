@@ -1,8 +1,0 @@
-package com.tutorial.springboot.service;
-
-import com.tutorial.springboot.model.User;
-import com.tutorial.springboot.web.dto.UserRegistrationDto;
-
-public interface UserService {
-	User save(UserRegistrationDto registrationDto);
-}

@@ -1,4 +1,0 @@
-//org.jboss.tools.openshift.core.connection.auth.https\://nold25@api.sandbox-m3.1530.p1.openshiftapps.com\:6443=OAuth
-//org.jboss.tools.openshift.core.connection.extproperties.https\://nold25@api.sandbox-m3.1530.p1.openshiftapps.com\:6443={"org.jbosstools.openshift.core.connection.ext.oc.location"\:"C\:\\\\Program Files\\\\RedHat\\\\OpenShift\\\\OC\\\\oc.exe","org.jbosstools.openshift.core.connection.ext.oc.override"\:true,"org.jbosstools.openshift.core.connection.ext.registry.url"\:"","org.jbosstools.openshift.core.connection.ext.cluster.namespace"\:"openshift"}
-eclipse.preferences.version=1
-org.jboss.tools.openshift.core.connection.CONNECTION_NAMES=https\://nold25@api.sandbox-m3.1530.p1.openshiftapps.com\:6443

@@ -1,5 +1,0 @@
-package com.tutorial.springboot.repository;
-
-public class EmployeeRepository {
-
-}

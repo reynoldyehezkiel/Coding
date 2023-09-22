@@ -1,5 +1,0 @@
-package com.tutorial.springboot.web.dto;
-
-public class UserRegistrationDto {
-
-}

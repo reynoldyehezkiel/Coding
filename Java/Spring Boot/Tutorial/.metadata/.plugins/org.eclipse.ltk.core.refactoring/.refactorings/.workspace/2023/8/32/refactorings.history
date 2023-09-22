@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;springboot-thymeleaf-crud-web-app&apos;" deleteContents="true" description="Delete resource &apos;springboot-thymeleaf-crud-web-app&apos;" element1="/springboot-thymeleaf-crud-web-app" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1691737072357"/>
-</session>
